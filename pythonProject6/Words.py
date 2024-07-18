@@ -1,4 +1,4 @@
-word = [
+words = [
     'spoon','sofa','pool','yellow','computer','chair','table','book',
     'pencil','lamp','door','window','carpet','phone','camera','picture',
     'clock','paper','pen','brush','bottle','plate','cup','glass','knife',
