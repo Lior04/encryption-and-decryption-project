@@ -20,4 +20,5 @@ print(caesar.Encrypt("hello wrfk", 2))
 print(caesar.Decrypt("wtaad lguz", 2))
 
 anbo = Anbo()
-print(anbo.Encrypt("bob"))
+print(anbo.Encrypt("bob shmoop"))
+print(anbo.Encrypt("obo fuzbbc"))
