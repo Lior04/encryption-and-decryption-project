@@ -7,7 +7,8 @@ This is a project we made for our Highschool
 Made with the tools below
 
 ![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff) ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff) ![](https://img.shields.io/badge/pygame-1.9.3%2B%2F2.0%2B-orange)
-__-
+
+____
 # Table Of Contents
 
 - [The Encryptionator 2000](#The-Encryptionator-2000)  
