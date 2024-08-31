@@ -7,8 +7,10 @@ abcHalf2 = ABC[len(ABC) // 2:]
 class Anbo:
 
     def Encrypt(self, text):
+        Text = text.replace(" ", "")
+        Text = Text.lower()
         encText = ""
-        for i in text:
+        for i in Text:
             if i != ' ':
                 indexLetter = abcHalf1.find(i)
                 if indexLetter == -1:
@@ -21,8 +23,10 @@ class Anbo:
         return encText
 
     def Decrypt(self, text):
+        Text = text.replace(" ", "")
+        Text = Text.lower()
         decText = ""
-        for i in text:
+        for i in Text:
             if i != ' ':
                 indexLetter = abcHalf1.find(i)
                 if indexLetter == -1:

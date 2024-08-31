@@ -1,8 +1,10 @@
 class Zigzag:
     def Encrypt(self, text):
+        Text = text.replace(" ", "")
+        Text = Text.lower()
         count = 0
         tempText = ""
-        for i in text:
+        for i in Text:
             if i != ' ':
                 tempText += i
         text = tempText
@@ -17,8 +19,10 @@ class Zigzag:
         return text
 
     def Decrypt(self, text):
+        Text = text.replace(" ", "")
+        Text = Text.lower()
         tempText = ""
-        for i in text:
+        for i in Text:
             if i != ' ':
                 tempText += i
         if len(tempText) % 2 != 0:
